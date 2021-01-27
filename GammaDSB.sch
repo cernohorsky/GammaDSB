@@ -1,11 +1,12 @@
 EESchema Schematic File Version 4
+LIBS:GammaDSB-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Gamma DSB Transceiver"
+Date "2021-01-26"
 Rev ""
 Comp ""
 Comment1 ""
@@ -269,10 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 3500 2450 3150
 Wire Wire Line
-	2450 3500 2250 3500
-Wire Wire Line
 	2250 3500 2250 3150
-Connection ~ 2450 3500
 Wire Wire Line
 	2250 3500 2250 3550
 Connection ~ 2250 3500
@@ -1531,17 +1529,6 @@ Wire Wire Line
 	4625 4950 4625 4525
 Wire Wire Line
 	4275 4600 4275 4525
-$Comp
-L Transistor_BJT:BC817 Q6
-U 1 1 604FEFD7
-P 4525 5225
-F 0 "Q6" H 4716 5179 50  0000 L CNN
-F 1 "BC817" H 4716 5270 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4725 5150 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 4525 5225 50  0001 L CNN
-	1    4525 5225
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	4325 5225 4250 5225
 Wire Wire Line
@@ -1748,4 +1735,26 @@ Wire Wire Line
 Wire Wire Line
 	1150 7025 1375 7025
 Connection ~ 1375 7025
+$Comp
+L power:+12V #PWR0109
+U 1 1 601119AE
+P 4275 4175
+F 0 "#PWR0109" H 4275 4025 50  0001 C CNN
+F 1 "+12V" H 4290 4348 50  0000 C CNN
+F 2 "" H 4275 4175 50  0001 C CNN
+F 3 "" H 4275 4175 50  0001 C CNN
+	1    4275 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC807 Q6
+U 1 1 6011203F
+P 4525 5225
+F 0 "Q6" H 4716 5179 50  0000 L CNN
+F 1 "BC807" H 4716 5270 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4725 5150 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 4525 5225 50  0001 L CNN
+	1    4525 5225
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
