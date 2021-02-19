@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:GammaDSB-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GammaDSB-rescue:MCP1700-5002E_SOT89-Regulator_Linear U1
+L GammaDSB-rescue:MCP1700-5002E_SOT89-Regulator_Linear-GammaDSB-rescue U1
 U 1 1 600F1F01
 P 1825 6650
 F 0 "U1" H 1825 6892 50  0000 C CNN
@@ -58,7 +59,7 @@ F 3 "" H 1825 7075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C6
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C6
 U 1 1 600F3721
 P 2925 6825
 F 0 "C6" H 3040 6871 50  0000 L CNN
@@ -69,7 +70,7 @@ F 3 "~" H 2925 6825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C2
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C2
 U 1 1 600F3AD9
 P 2175 6825
 F 0 "C2" H 2290 6871 50  0000 L CNN
@@ -80,7 +81,7 @@ F 3 "~" H 2175 6825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C4
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C4
 U 1 1 600F43B0
 P 2550 6825
 F 0 "C4" H 2665 6871 50  0000 L CNN
@@ -91,7 +92,7 @@ F 3 "~" H 2550 6825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C1
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C1
 U 1 1 600F4785
 P 1375 6825
 F 0 "C1" H 1260 6779 50  0000 R CNN
@@ -151,7 +152,7 @@ Wire Wire Line
 	2925 6525 2925 6650
 Connection ~ 2925 6650
 $Comp
-L GammaDSB-rescue:NE602-riske-symbols U2
+L GammaDSB-rescue:NE602-riske-symbols-GammaDSB-rescue U2
 U 1 1 600FE574
 P 2550 2400
 F 0 "U2" H 3028 2421 50  0000 L CNN
@@ -173,7 +174,7 @@ F 3 "" H 2650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C3
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C3
 U 1 1 600FF2DE
 P 1750 1850
 F 0 "C3" H 1865 1896 50  0000 L CNN
@@ -219,7 +220,7 @@ Wire Wire Line
 	1750 1625 1750 1650
 Connection ~ 1750 1650
 $Comp
-L GammaDSB-rescue:Crystal-Device Y1
+L GammaDSB-rescue:Crystal-Device-GammaDSB-rescue Y1
 U 1 1 6010262F
 P 1825 3700
 F 0 "Y1" V 1779 3831 50  0000 L CNN
@@ -230,7 +231,7 @@ F 3 "~" H 1825 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C5
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C5
 U 1 1 60102E7D
 P 2250 3700
 F 0 "C5" H 2365 3746 50  0000 L CNN
@@ -241,7 +242,7 @@ F 3 "~" H 2250 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C8
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C8
 U 1 1 6010345C
 P 2625 3700
 F 0 "C8" H 2740 3746 50  0000 L CNN
@@ -252,7 +253,7 @@ F 3 "~" H 2625 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C10
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C10
 U 1 1 60103614
 P 2950 3500
 F 0 "C10" V 2698 3500 50  0000 C CNN
@@ -303,7 +304,7 @@ Wire Wire Line
 	2800 3500 2625 3500
 Connection ~ 2625 3500
 $Comp
-L GammaDSB-rescue:Q_NPN_BEC-Device Q1
+L GammaDSB-rescue:Q_NPN_BEC-Device-GammaDSB-rescue Q1
 U 1 1 6010A7EF
 P 1925 4375
 F 0 "Q1" H 2116 4421 50  0000 L CNN
@@ -329,7 +330,7 @@ $EndComp
 Wire Wire Line
 	1825 4575 1825 4625
 $Comp
-L GammaDSB-rescue:R-Device R1
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R1
 U 1 1 6010D5A3
 P 2325 4375
 F 0 "R1" V 2118 4375 50  0000 C CNN
@@ -346,7 +347,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 4375 2475 4375
 $Comp
-L GammaDSB-rescue:AudioJack2_Ground-Connector J1
+L GammaDSB-rescue:AudioJack2_Ground-Connector-GammaDSB-rescue J1
 U 1 1 60111075
 P 1900 5200
 F 0 "J1" H 1932 5525 50  0000 C CNN
@@ -376,7 +377,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 5100 2100 5100
 $Comp
-L GammaDSB-rescue:Crystal-Device Y2
+L GammaDSB-rescue:Crystal-Device-GammaDSB-rescue Y2
 U 1 1 601139BD
 P 2875 1125
 F 0 "Y2" V 2829 1256 50  0000 L CNN
@@ -387,7 +388,7 @@ F 3 "~" H 2875 1125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C9
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C9
 U 1 1 6011404B
 P 2650 1500
 F 0 "C9" V 2398 1500 50  0000 C CNN
@@ -398,7 +399,7 @@ F 3 "~" H 2650 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C7
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C7
 U 1 1 60114602
 P 2450 1125
 F 0 "C7" H 2335 1079 50  0000 R CNN
@@ -449,7 +450,7 @@ Wire Wire Line
 	2200 925  2200 1050
 Connection ~ 2450 925 
 $Comp
-L GammaDSB-rescue:C-Device C11
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C11
 U 1 1 6011BF4E
 P 3575 1875
 F 0 "C11" H 3460 1829 50  0000 R CNN
@@ -475,7 +476,7 @@ $EndComp
 Wire Wire Line
 	3575 2025 3575 2075
 $Comp
-L GammaDSB-rescue:Q_NPN_BEC-Device Q3
+L GammaDSB-rescue:Q_NPN_BEC-Device-GammaDSB-rescue Q3
 U 1 1 6011F3B9
 P 3850 1700
 F 0 "Q3" H 4041 1746 50  0000 L CNN
@@ -489,7 +490,7 @@ Wire Wire Line
 	3575 1700 3650 1700
 Connection ~ 3575 1700
 $Comp
-L GammaDSB-rescue:R-Device R5
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R5
 U 1 1 6012294A
 P 3950 2125
 F 0 "R5" H 3880 2079 50  0000 R CNN
@@ -500,7 +501,7 @@ F 3 "~" H 3950 2125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C13
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C13
 U 1 1 601232EC
 P 4275 2125
 F 0 "C13" H 4160 2079 50  0000 R CNN
@@ -542,7 +543,7 @@ Connection ~ 4100 2325
 Wire Wire Line
 	4100 2325 4275 2325
 $Comp
-L GammaDSB-rescue:R-Device R4
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R4
 U 1 1 601299E2
 P 3950 1250
 F 0 "R4" H 3880 1204 50  0000 R CNN
@@ -553,7 +554,7 @@ F 3 "~" H 3950 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C12
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C12
 U 1 1 60129C89
 P 3675 1250
 F 0 "C12" H 3560 1204 50  0000 R CNN
@@ -585,7 +586,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1050 3950 1100
 $Comp
-L GammaDSB-rescue:R-Device R2
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R2
 U 1 1 601354E5
 P 3300 1125
 F 0 "R2" H 3230 1079 50  0000 R CNN
@@ -637,7 +638,7 @@ Connection ~ 3825 1050
 Wire Wire Line
 	3825 1050 3950 1050
 $Comp
-L GammaDSB-rescue:C-Device C15
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C15
 U 1 1 60147E28
 P 4325 1425
 F 0 "C15" V 4577 1425 50  0000 C CNN
@@ -648,7 +649,7 @@ F 3 "~" H 4325 1425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R6
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R6
 U 1 1 60148860
 P 4525 1625
 F 0 "R6" H 4455 1579 50  0000 R CNN
@@ -681,7 +682,7 @@ $EndComp
 Wire Wire Line
 	4525 1775 4525 1825
 $Comp
-L GammaDSB-rescue:AudioJack2_Ground-Connector J2
+L GammaDSB-rescue:AudioJack2_Ground-Connector-GammaDSB-rescue J2
 U 1 1 6014ED7F
 P 4925 1525
 F 0 "J2" H 4745 1543 50  0000 R CNN
@@ -710,7 +711,7 @@ NoConn ~ 2100 5200
 Wire Wire Line
 	4925 1725 4925 1825
 $Comp
-L GammaDSB-rescue:Q_NPN_BEC-Device Q2
+L GammaDSB-rescue:Q_NPN_BEC-Device-GammaDSB-rescue Q2
 U 1 1 601608F2
 P 3700 3200
 F 0 "Q2" H 3891 3246 50  0000 L CNN
@@ -725,7 +726,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3200 3500 3200
 $Comp
-L GammaDSB-rescue:R-Device R3
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R3
 U 1 1 60163AED
 P 3800 3625
 F 0 "R3" H 3730 3579 50  0000 R CNN
@@ -751,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3400 3800 3425
 $Comp
-L GammaDSB-rescue:C-Device C14
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C14
 U 1 1 6016984B
 P 4275 3425
 F 0 "C14" V 4023 3425 50  0000 C CNN
@@ -780,7 +781,7 @@ $EndComp
 Wire Wire Line
 	3800 2950 3800 3000
 $Comp
-L GammaDSB-rescue:Q_NPN_BEC-Device Q4
+L GammaDSB-rescue:Q_NPN_BEC-Device-GammaDSB-rescue Q4
 U 1 1 60171794
 P 4800 3250
 F 0 "Q4" H 4991 3296 50  0000 L CNN
@@ -791,7 +792,7 @@ F 3 "~" H 4800 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R8
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R8
 U 1 1 601729F5
 P 4700 3000
 F 0 "R8" V 4907 3000 50  0000 C CNN
@@ -812,7 +813,7 @@ Wire Wire Line
 Wire Wire Line
 	4525 3250 4600 3250
 $Comp
-L GammaDSB-rescue:R-Device R9
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R9
 U 1 1 6017AB03
 P 4900 3650
 F 0 "R9" H 4830 3604 50  0000 R CNN
@@ -823,7 +824,7 @@ F 3 "~" H 4900 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C16
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C16
 U 1 1 6017B249
 P 5225 3650
 F 0 "C16" H 5110 3604 50  0000 R CNN
@@ -834,7 +835,7 @@ F 3 "~" H 5225 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R7
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R7
 U 1 1 6017BAF2
 P 4525 3650
 F 0 "R7" H 4455 3604 50  0000 R CNN
@@ -868,7 +869,7 @@ Connection ~ 4900 3850
 Wire Wire Line
 	4900 3850 4525 3850
 $Comp
-L GammaDSB-rescue:R-Device R11
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R11
 U 1 1 6018D627
 P 6375 3000
 F 0 "R11" V 6582 3000 50  0000 C CNN
@@ -890,7 +891,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 3250 6275 3250
 $Comp
-L GammaDSB-rescue:R-Device R13
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R13
 U 1 1 6018D638
 P 6850 3650
 F 0 "R13" H 6780 3604 50  0000 R CNN
@@ -901,7 +902,7 @@ F 3 "~" H 6850 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C18
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C18
 U 1 1 6018D642
 P 7175 3650
 F 0 "C18" H 7060 3604 50  0000 R CNN
@@ -912,7 +913,7 @@ F 3 "~" H 7175 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R10
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R10
 U 1 1 6018D64C
 P 6200 3650
 F 0 "R10" H 6130 3604 50  0000 R CNN
@@ -938,7 +939,7 @@ Connection ~ 6850 3850
 Wire Wire Line
 	6850 3850 6575 3850
 $Comp
-L GammaDSB-rescue:C-Device C17
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C17
 U 1 1 60197F41
 P 5875 3100
 F 0 "C17" H 5760 3054 50  0000 R CNN
@@ -956,7 +957,7 @@ Wire Wire Line
 Wire Wire Line
 	5875 2900 5875 2950
 $Comp
-L GammaDSB-rescue:R-Device R12
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R12
 U 1 1 601A5C24
 P 6575 3650
 F 0 "R12" H 6505 3604 50  0000 R CNN
@@ -985,7 +986,7 @@ Wire Wire Line
 Wire Wire Line
 	5875 3250 6200 3250
 $Comp
-L GammaDSB-rescue:Q_NPN_ECB-Device Q5
+L GammaDSB-rescue:Q_NPN_ECB-Device-GammaDSB-rescue Q5
 U 1 1 601D90F1
 P 6475 3250
 F 0 "Q5" H 6665 3296 50  0000 L CNN
@@ -1015,7 +1016,7 @@ $EndComp
 Wire Wire Line
 	6575 3850 6575 3900
 $Comp
-L GammaDSB-rescue:R-Device R14
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R14
 U 1 1 601F9FFD
 P 6375 2350
 F 0 "R14" V 6582 2350 50  0000 C CNN
@@ -1026,7 +1027,7 @@ F 3 "~" H 6375 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C19
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C19
 U 1 1 601E409E
 P 6050 2550
 F 0 "C19" H 5935 2504 50  0000 R CNN
@@ -1037,7 +1038,7 @@ F 3 "~" H 6050 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C21
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C21
 U 1 1 601FBCBC
 P 7150 2550
 F 0 "C21" H 7035 2504 50  0000 R CNN
@@ -1048,7 +1049,7 @@ F 3 "~" H 7150 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:L_Core_Ferrite-Device L1
+L GammaDSB-rescue:L_Core_Ferrite-Device-GammaDSB-rescue L1
 U 1 1 601FC69C
 P 6575 2725
 F 0 "L1" H 6663 2771 50  0000 L CNN
@@ -1061,7 +1062,7 @@ $EndComp
 Wire Wire Line
 	6575 2875 6575 3000
 $Comp
-L GammaDSB-rescue:C-Device C20
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C20
 U 1 1 60202514
 P 6850 3000
 F 0 "C20" V 7102 3000 50  0000 C CNN
@@ -1127,7 +1128,7 @@ Connection ~ 4525 3425
 Wire Wire Line
 	4525 3425 4525 3500
 $Comp
-L GammaDSB-rescue:G5V-2-Relay K1
+L GammaDSB-rescue:G5V-2-Relay-GammaDSB-rescue K1
 U 1 1 60277DB3
 P 7975 3500
 F 0 "K1" V 8742 3500 50  0000 C CNN
@@ -1140,7 +1141,7 @@ $EndComp
 Wire Wire Line
 	7000 3000 7675 3000
 $Comp
-L GammaDSB-rescue:LED-Device D1
+L GammaDSB-rescue:LED-Device-GammaDSB-rescue D1
 U 1 1 60281F15
 P 7025 4525
 F 0 "D1" V 7064 4408 50  0000 R CNN
@@ -1151,7 +1152,7 @@ F 3 "~" H 7025 4525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GammaDSB-rescue:LED-Device D2
+L GammaDSB-rescue:LED-Device-GammaDSB-rescue D2
 U 1 1 60282AFB
 P 7375 4525
 F 0 "D2" V 7414 4408 50  0000 R CNN
@@ -1166,7 +1167,7 @@ Wire Wire Line
 Wire Wire Line
 	7675 3400 7550 3400
 $Comp
-L GammaDSB-rescue:R-Device R15
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R15
 U 1 1 6029D803
 P 7200 4925
 F 0 "R15" H 7270 4971 50  0000 L CNN
@@ -1201,7 +1202,7 @@ $EndComp
 Wire Wire Line
 	7200 5075 7200 5125
 $Comp
-L GammaDSB-rescue:CP-Device C23
+L GammaDSB-rescue:CP-Device-GammaDSB-rescue C23
 U 1 1 602B32EC
 P 8325 4450
 F 0 "C23" H 8443 4496 50  0000 L CNN
@@ -1241,137 +1242,31 @@ Wire Wire Line
 Wire Wire Line
 	8325 4600 8325 4650
 $Comp
-L GammaDSB-rescue:C-Device C22
-U 1 1 602FC2C4
-P 7750 1925
-F 0 "C22" H 7635 1879 50  0000 R CNN
-F 1 "100n" H 7635 1970 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7788 1775 50  0001 C CNN
-F 3 "~" H 7750 1925 50  0001 C CNN
-	1    7750 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L GammaDSB-rescue:C-Device C24
-U 1 1 602FC6D4
-P 8400 1925
-F 0 "C24" H 8285 1879 50  0000 R CNN
-F 1 "100n" H 8285 1970 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 1775 50  0001 C CNN
-F 3 "~" H 8400 1925 50  0001 C CNN
-	1    8400 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L GammaDSB-rescue:C-Device C25
-U 1 1 602FC92F
-P 9150 1900
-F 0 "C25" H 9035 1854 50  0000 R CNN
-F 1 "100n" H 9035 1945 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9188 1750 50  0001 C CNN
-F 3 "~" H 9150 1900 50  0001 C CNN
-	1    9150 1900
-	-1   0    0    1   
-$EndComp
-$Comp
-L GammaDSB-rescue:L-Device L2
-U 1 1 602FCC0E
-P 8075 1725
-F 0 "L2" V 8265 1725 50  0000 C CNN
-F 1 "L" V 8174 1725 50  0000 C CNN
-F 2 "Inductor_THT:L_Toroid_Vertical_L16.0mm_W8.0mm_P7.62mm" H 8075 1725 50  0001 C CNN
-F 3 "~" H 8075 1725 50  0001 C CNN
-	1    8075 1725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GammaDSB-rescue:L-Device L3
-U 1 1 602FDE49
-P 8800 1725
-F 0 "L3" V 8990 1725 50  0000 C CNN
-F 1 "L" V 8899 1725 50  0000 C CNN
-F 2 "Inductor_THT:L_Toroid_Vertical_L16.0mm_W8.0mm_P7.62mm" H 8800 1725 50  0001 C CNN
-F 3 "~" H 8800 1725 50  0001 C CNN
-	1    8800 1725
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7750 1775 7750 1725
-Wire Wire Line
-	7750 1725 7925 1725
-Wire Wire Line
-	8225 1725 8400 1725
-Wire Wire Line
-	8400 1775 8400 1725
-Connection ~ 8400 1725
-Wire Wire Line
-	8400 1725 8650 1725
-Wire Wire Line
-	8950 1725 9150 1725
-Wire Wire Line
-	9150 1725 9150 1750
-Wire Wire Line
-	7750 2075 7750 2125
-Wire Wire Line
-	7750 2125 8400 2125
-Wire Wire Line
-	9150 2125 9150 2050
-$Comp
-L power:GND #PWR0127
-U 1 1 603258C6
-P 8400 2175
-F 0 "#PWR0127" H 8400 1925 50  0001 C CNN
-F 1 "GND" H 8405 2002 50  0000 C CNN
-F 2 "" H 8400 2175 50  0001 C CNN
-F 3 "" H 8400 2175 50  0001 C CNN
-	1    8400 2175
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 2075 8400 2125
-Connection ~ 8400 2125
-Wire Wire Line
-	8400 2125 9150 2125
-Wire Wire Line
-	8400 2175 8400 2125
-$Comp
-L GammaDSB-rescue:Conn_Coaxial-Connector J3
+L GammaDSB-rescue:Conn_Coaxial-Connector-GammaDSB-rescue J3
 U 1 1 603366C2
-P 9625 1725
-F 0 "J3" H 9725 1700 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9725 1609 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 9625 1725 50  0001 C CNN
-F 3 " ~" H 9625 1725 50  0001 C CNN
-	1    9625 1725
+P 8550 3100
+F 0 "J3" H 8650 3075 50  0000 L CNN
+F 1 "Conn_Coaxial" H 8650 2984 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 8550 3100 50  0001 C CNN
+F 3 " ~" H 8550 3100 50  0001 C CNN
+	1    8550 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0128
 U 1 1 60337523
-P 9625 2150
-F 0 "#PWR0128" H 9625 1900 50  0001 C CNN
-F 1 "GND" H 9630 1977 50  0000 C CNN
-F 2 "" H 9625 2150 50  0001 C CNN
-F 3 "" H 9625 2150 50  0001 C CNN
-	1    9625 2150
+P 8550 3525
+F 0 "#PWR0128" H 8550 3275 50  0001 C CNN
+F 1 "GND" H 8555 3352 50  0000 C CNN
+F 2 "" H 8550 3525 50  0001 C CNN
+F 3 "" H 8550 3525 50  0001 C CNN
+	1    8550 3525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 1725 9425 1725
-Connection ~ 9150 1725
-Wire Wire Line
-	9625 1925 9625 2150
+	8550 3300 8550 3525
 Wire Wire Line
 	8275 3100 8350 3100
-Wire Wire Line
-	8350 3100 8350 2575
-Wire Wire Line
-	8350 2575 7550 2575
-Wire Wire Line
-	7550 2575 7550 1725
-Wire Wire Line
-	7550 1725 7750 1725
-Connection ~ 7750 1725
 Wire Wire Line
 	8325 3500 8275 3500
 Wire Wire Line
@@ -1401,7 +1296,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 3250 6200 3500
 $Comp
-L GammaDSB-rescue:R-Device R17
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R17
 U 1 1 604A4C34
 P 3775 5425
 F 0 "R17" H 3705 5379 50  0000 R CNN
@@ -1412,7 +1307,7 @@ F 3 "~" H 3775 5425 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C26
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C26
 U 1 1 604A5667
 P 3500 5225
 F 0 "C26" V 3248 5225 50  0000 C CNN
@@ -1423,7 +1318,7 @@ F 3 "~" H 3500 5225 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R16
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R16
 U 1 1 604A6285
 P 3775 5025
 F 0 "R16" H 3705 4979 50  0000 R CNN
@@ -1434,7 +1329,7 @@ F 3 "~" H 3775 5025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R18
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R18
 U 1 1 604A6A1B
 P 4100 5225
 F 0 "R18" V 4307 5225 50  0000 C CNN
@@ -1445,7 +1340,7 @@ F 3 "~" H 4100 5225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R21
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R21
 U 1 1 604A7B73
 P 4625 5625
 F 0 "R21" H 4555 5579 50  0000 R CNN
@@ -1467,7 +1362,7 @@ F 3 "" H 3775 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R19
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R19
 U 1 1 604B204F
 P 4275 4375
 F 0 "R19" H 4205 4329 50  0000 R CNN
@@ -1478,7 +1373,7 @@ F 3 "~" H 4275 4375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:R-Device R20
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R20
 U 1 1 604B224F
 P 4625 4375
 F 0 "R20" H 4555 4329 50  0000 R CNN
@@ -1489,7 +1384,7 @@ F 3 "~" H 4625 4375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C27
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C27
 U 1 1 604B3121
 P 4275 4750
 F 0 "C27" H 4160 4704 50  0000 R CNN
@@ -1550,7 +1445,7 @@ $EndComp
 Wire Wire Line
 	4625 5775 4625 5825
 $Comp
-L GammaDSB-rescue:D-Device D3
+L GammaDSB-rescue:D-Device-GammaDSB-rescue D3
 U 1 1 6057313F
 P 5050 5450
 F 0 "D3" H 5050 5234 50  0000 C CNN
@@ -1566,7 +1461,7 @@ Connection ~ 4625 5450
 Wire Wire Line
 	4625 5450 4625 5475
 $Comp
-L GammaDSB-rescue:R-Device R22
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R22
 U 1 1 6057F46B
 P 5250 5625
 F 0 "R22" H 5180 5579 50  0000 R CNN
@@ -1594,7 +1489,7 @@ $EndComp
 Wire Wire Line
 	5250 5775 5250 5825
 $Comp
-L GammaDSB-rescue:R-Device R23
+L GammaDSB-rescue:R-Device-GammaDSB-rescue R23
 U 1 1 60596E8E
 P 5550 5625
 F 0 "R23" H 5480 5579 50  0000 R CNN
@@ -1605,7 +1500,7 @@ F 3 "~" H 5550 5625 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GammaDSB-rescue:C-Device C28
+L GammaDSB-rescue:C-Device-GammaDSB-rescue C28
 U 1 1 6059706B
 P 5800 5450
 F 0 "C28" V 5548 5450 50  0000 C CNN
@@ -1616,7 +1511,7 @@ F 3 "~" H 5800 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GammaDSB-rescue:Q_NPN_BEC-Device Q7
+L GammaDSB-rescue:Q_NPN_BEC-Device-GammaDSB-rescue Q7
 U 1 1 605979AD
 P 5900 5825
 F 0 "Q7" H 6091 5871 50  0000 L CNN
@@ -1627,7 +1522,7 @@ F 3 "~" H 5900 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:Q_NPN_BEC-Device Q8
+L GammaDSB-rescue:Q_NPN_BEC-Device-GammaDSB-rescue Q8
 U 1 1 605987F3
 P 6350 6100
 F 0 "Q8" H 6541 6146 50  0000 L CNN
@@ -1696,7 +1591,7 @@ Wire Wire Line
 Text Label 2500 4350 1    50   ~ 0
 VccT
 $Comp
-L Connector:Barrel_Jack J4
+L GammaDSB-rescue:Barrel_Jack-Connector J4
 U 1 1 607EFFAA
 P 800 6750
 F 0 "J4" H 857 7075 50  0000 C CNN
@@ -1728,7 +1623,7 @@ F 3 "" H 4275 4175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GammaDSB-rescue:BC807-Transistor_BJT Q6
+L GammaDSB-rescue:BC807-Transistor_BJT-GammaDSB-rescue Q6
 U 1 1 6011203F
 P 4525 5225
 F 0 "Q6" H 4716 5179 50  0000 L CNN
@@ -1739,34 +1634,34 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 4525 5225 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01 J5
+L GammaDSB-rescue:Conn_01x01-Connector J5
 U 1 1 6030B1BC
 P 5000 2700
 F 0 "J5" V 4964 2612 50  0000 R CNN
 F 1 "Conn_01x01" V 4873 2612 50  0000 R CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5000 2700 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5000 2700 50  0001 C CNN
 F 3 "~" H 5000 2700 50  0001 C CNN
 	1    5000 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x01 J6
+L GammaDSB-rescue:Conn_01x01-Connector J6
 U 1 1 6031E71D
 P 5600 2500
 F 0 "J6" H 5518 2275 50  0000 C CNN
 F 1 "Conn_01x01" H 5518 2366 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5600 2500 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5600 2500 50  0001 C CNN
 F 3 "~" H 5600 2500 50  0001 C CNN
 	1    5600 2500
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01 J7
+L GammaDSB-rescue:Conn_01x01-Connector J7
 U 1 1 6031F52C
 P 5600 2900
 F 0 "J7" H 5518 2675 50  0000 C CNN
 F 1 "Conn_01x01" H 5518 2766 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5600 2900 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5600 2900 50  0001 C CNN
 F 3 "~" H 5600 2900 50  0001 C CNN
 	1    5600 2900
 	-1   0    0    1   

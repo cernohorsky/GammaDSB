@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# GammaDSB-rescue_AudioJack2_Ground-Connector-GammaDSB-rescue
+# AudioJack2_Ground-Connector-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_AudioJack2_Ground-Connector-GammaDSB-rescue J 0 20 Y Y 1 F N
+DEF AudioJack2_Ground-Connector-GammaDSB-rescue J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "GammaDSB-rescue_AudioJack2_Ground-Connector-GammaDSB-rescue" 0 250 50 H V C CNN
+F1 "AudioJack2_Ground-Connector-GammaDSB-rescue" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -22,11 +22,11 @@ X ~ T 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_BC807-Transistor_BJT-GammaDSB-rescue
+# BC807-Transistor_BJT-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_BC807-Transistor_BJT-GammaDSB-rescue Q 0 0 Y N 1 F N
+DEF BC807-Transistor_BJT-GammaDSB-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "GammaDSB-rescue_BC807-Transistor_BJT-GammaDSB-rescue" 200 0 50 H V L CNN
+F1 "BC807-Transistor_BJT-GammaDSB-rescue" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -44,11 +44,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_Barrel_Jack-Connector
+# Barrel_Jack-Connector
 #
-DEF GammaDSB-rescue_Barrel_Jack-Connector J 0 40 Y Y 1 F N
+DEF Barrel_Jack-Connector J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "GammaDSB-rescue_Barrel_Jack-Connector" 0 -175 50 H V C CNN
+F1 "Barrel_Jack-Connector" 0 -175 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 $FPLIST
@@ -69,11 +69,11 @@ X ~ 3 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_C-Device-GammaDSB-rescue
+# C-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_C-Device-GammaDSB-rescue C 0 10 N Y 1 F N
+DEF C-Device-GammaDSB-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "GammaDSB-rescue_C-Device-GammaDSB-rescue" 25 -100 50 H V L CNN
+F1 "C-Device-GammaDSB-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -87,11 +87,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_CP-Device-GammaDSB-rescue
+# CP-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_CP-Device-GammaDSB-rescue C 0 10 N Y 1 F N
+DEF CP-Device-GammaDSB-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "GammaDSB-rescue_CP-Device-GammaDSB-rescue" 25 -100 50 H V L CNN
+F1 "CP-Device-GammaDSB-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -107,11 +107,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_Conn_01x01-Connector
+# Conn_01x01-Connector
 #
-DEF GammaDSB-rescue_Conn_01x01-Connector J 0 40 Y N 1 F N
+DEF Conn_01x01-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "GammaDSB-rescue_Conn_01x01-Connector" 0 -100 50 H V C CNN
+F1 "Conn_01x01-Connector" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -129,11 +129,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_Conn_Coaxial-Connector-GammaDSB-rescue
+# Conn_Coaxial-Connector-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_Conn_Coaxial-Connector-GammaDSB-rescue J 0 40 Y N 1 F N
+DEF Conn_Coaxial-Connector-GammaDSB-rescue J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "GammaDSB-rescue_Conn_Coaxial-Connector-GammaDSB-rescue" 115 0 50 V V C CNN
+F1 "Conn_Coaxial-Connector-GammaDSB-rescue" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -154,11 +154,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_Crystal-Device-GammaDSB-rescue
+# Crystal-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_Crystal-Device-GammaDSB-rescue Y 0 40 N N 1 F N
+DEF Crystal-Device-GammaDSB-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "GammaDSB-rescue_Crystal-Device-GammaDSB-rescue" 0 -150 50 H V C CNN
+F1 "Crystal-Device-GammaDSB-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -175,11 +175,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_D-Device-GammaDSB-rescue
+# D-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_D-Device-GammaDSB-rescue D 0 40 N N 1 F N
+DEF D-Device-GammaDSB-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "GammaDSB-rescue_D-Device-GammaDSB-rescue" 0 -100 50 H V C CNN
+F1 "D-Device-GammaDSB-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -197,11 +197,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_G5V-2-Relay-GammaDSB-rescue
+# G5V-2-Relay-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_G5V-2-Relay-GammaDSB-rescue K 0 40 Y Y 1 F N
+DEF G5V-2-Relay-GammaDSB-rescue K 0 40 Y Y 1 F N
 F0 "K" 650 150 50 H V L CNN
-F1 "GammaDSB-rescue_G5V-2-Relay-GammaDSB-rescue" 650 50 50 H V L CNN
+F1 "G5V-2-Relay-GammaDSB-rescue" 650 50 50 H V L CNN
 F2 "Relay_THT:Relay_DPDT_Omron_G5V-2" 650 -50 50 H I L CNN
 F3 "" -200 0 50 H I C CNN
 $FPLIST
@@ -249,11 +249,34 @@ X ~ 9 500 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_LED-Device-GammaDSB-rescue
+# L-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_LED-Device-GammaDSB-rescue D 0 40 N N 1 F N
+DEF L-Device-GammaDSB-rescue L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L-Device-GammaDSB-rescue" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED-Device-GammaDSB-rescue
+#
+DEF LED-Device-GammaDSB-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "GammaDSB-rescue_LED-Device-GammaDSB-rescue" 0 -100 50 H V C CNN
+F1 "LED-Device-GammaDSB-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -272,11 +295,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_L_Core_Ferrite-Device-GammaDSB-rescue
+# L_Core_Ferrite-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_L_Core_Ferrite-Device-GammaDSB-rescue L 0 40 N N 1 F N
+DEF L_Core_Ferrite-Device-GammaDSB-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "GammaDSB-rescue_L_Core_Ferrite-Device-GammaDSB-rescue" 110 0 50 V V C CNN
+F1 "L_Core_Ferrite-Device-GammaDSB-rescue" 110 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -307,11 +330,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_MCP1700-5002E_SOT89-Regulator_Linear-GammaDSB-rescue
+# MCP1700-5002E_SOT89-Regulator_Linear-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_MCP1700-5002E_SOT89-Regulator_Linear-GammaDSB-rescue U 0 10 Y Y 1 F N
+DEF MCP1700-5002E_SOT89-Regulator_Linear-GammaDSB-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "GammaDSB-rescue_MCP1700-5002E_SOT89-Regulator_Linear-GammaDSB-rescue" 0 125 50 H V L CNN
+F1 "MCP1700-5002E_SOT89-Regulator_Linear-GammaDSB-rescue" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-89-3" 0 200 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -325,11 +348,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_NE602-riske-symbols-GammaDSB-rescue
+# NE602-riske-symbols-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_NE602-riske-symbols-GammaDSB-rescue U 0 40 Y Y 1 F N
+DEF NE602-riske-symbols-GammaDSB-rescue U 0 40 Y Y 1 F N
 F0 "U" -500 -600 50 V V C CNN
-F1 "GammaDSB-rescue_NE602-riske-symbols-GammaDSB-rescue" -500 450 50 V V C CNN
+F1 "NE602-riske-symbols-GammaDSB-rescue" -500 450 50 V V C CNN
 F2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" 400 550 50 H I C CNN
 F3 "" 400 550 50 H I C CNN
 DRAW
@@ -363,11 +386,11 @@ X Vcc 8 -300 700 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_Q_NPN_BEC-Device-GammaDSB-rescue
+# Q_NPN_BEC-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_Q_NPN_BEC-Device-GammaDSB-rescue Q 0 0 Y N 1 F N
+DEF Q_NPN_BEC-Device-GammaDSB-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "GammaDSB-rescue_Q_NPN_BEC-Device-GammaDSB-rescue" 200 -50 50 H V L CNN
+F1 "Q_NPN_BEC-Device-GammaDSB-rescue" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -382,11 +405,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_Q_NPN_ECB-Device-GammaDSB-rescue
+# Q_NPN_ECB-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_Q_NPN_ECB-Device-GammaDSB-rescue Q 0 0 Y N 1 F N
+DEF Q_NPN_ECB-Device-GammaDSB-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "GammaDSB-rescue_Q_NPN_ECB-Device-GammaDSB-rescue" 200 -50 50 H V L CNN
+F1 "Q_NPN_ECB-Device-GammaDSB-rescue" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -401,11 +424,11 @@ X B 3 -200 0 225 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GammaDSB-rescue_R-Device-GammaDSB-rescue
+# R-Device-GammaDSB-rescue
 #
-DEF GammaDSB-rescue_R-Device-GammaDSB-rescue R 0 0 N Y 1 F N
+DEF R-Device-GammaDSB-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "GammaDSB-rescue_R-Device-GammaDSB-rescue" 0 0 50 V V C CNN
+F1 "R-Device-GammaDSB-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -415,49 +438,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+12V
-#
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
